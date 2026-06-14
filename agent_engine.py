@@ -14,7 +14,7 @@ lm = dspy.LM(
 )
 dspy.configure(lm=lm)
 
-------------------------- TOOLS ----------------------
+# ------------------------- TOOLS ----------------------
 
 def execute_sql_financials(entity_name: str) -> str:
     """Use ONLY for exact mathematical figures, market caps, revenue, or cash."""
